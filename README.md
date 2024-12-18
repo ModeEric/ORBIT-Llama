@@ -2,6 +2,8 @@
 
 **Orbit** is a comprehensive framework for AI experimentation and evaluation across multiple domains such as astronomy, law, and medicine. The structure of the project is modular, supporting data preprocessing, model training, and evaluation pipelines.
 
+Huggingface dataset repo: https://huggingface.co/datasets/ericmofre23/ORBIT-Astro
+Huggingface model repo: ericmofre23/ORBIT-Llama-3-8b
 ## Project Structure
 
 Here is a brief overview of the project layout:
