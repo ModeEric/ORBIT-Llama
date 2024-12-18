@@ -1,0 +1,33 @@
+
+task: llm-sft
+base_model: meta-llama/Meta-Llama-3-8B
+project_name: a-project-name
+log: tensorboard
+backend: local
+
+data:
+  path: /path/to/files
+  train_split: train
+  valid_split: null
+  chat_template: null
+  column_mapping:
+    text_column: text
+
+params:
+  block_size: 2048
+  model_max_length: 8192
+  epochs: 1
+  batch_size: 1
+  lr: 2e-5
+  peft: false
+  quantization: bf16
+  padding: right
+  optimizer: paged_adamw_8bit
+  scheduler: linear
+  gradient_accumulation: 8
+  use_flash_attn2: true
+
+hub:
+  username: username
+  token: hf_token
+  push_to_hub: true
