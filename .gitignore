@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ORBIT specific
+orbit_models/
+orbit_evaluations/
+test_astro_output/
+
+# Large data files
+*.parquet
+*.csv
+*.jsonl
+*.json
+!requirements.json
+!metadata.json
+
+# FastText and embedding files
+*.bin
+*.vec
+*.model
+*.embedding
+*.fasttext
+*.w2v
+*.glove
+*.magnitude
+*.pkl
+*.pickle
+
+# Token similarity mappings
+*_sim_mapping.pkl
+*_token_sim.pkl
+*_similarity.pkl
+
+# Logs
+*.log
+logs/ 
