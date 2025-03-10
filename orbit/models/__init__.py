@@ -10,9 +10,8 @@ Main Components:
 - OrbitTrainer: For fine-tuning models on domain-specific data
 """
 
-# Import will be enabled when the module is implemented
-# from orbit.models.trainer import OrbitTrainer
+from orbit.models.trainer import OrbitTrainer
 
 __all__ = [
-    # "OrbitTrainer"
+    "OrbitTrainer"
 ] 
